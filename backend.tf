@@ -2,7 +2,7 @@
 
 terraform {
   backend "s3" {
-    bucket = "hanna-vpc"
+    bucket = "sctp-ce10-tfstate"
     key    = "package-vul-scan-hanna.tfstate" #Change the value of this to <your suggested name>.tfstate for  example
     region = "ap-southeast-1"
   }
